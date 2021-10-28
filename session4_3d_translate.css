@@ -1,0 +1,35 @@
+.translatex>img,.translatey>img,.translatez>img,.translate3d>img
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+}
+.translatex>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:translateX(60deg);
+}
+.translatey>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:translateY(60deg);
+}
+.translatez>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:translateZ(60deg);
+}
+.translate3d>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:translate3d(40deg);
+    /* 10 from x ,6 from y ,9 from z and 40 deg rotation.values of x,y,z */
+}

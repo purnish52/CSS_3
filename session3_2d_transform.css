@@ -1,0 +1,87 @@
+.translate
+{
+    margin:30px;
+    width:200px;
+    height:auto;
+    background-color: blue;
+}
+.translate>p,.scale>p
+{
+    text-align:center;
+    font:12pt 'Arial';
+    color:white;
+}
+.translate:hover
+{
+    margin:30px;
+    width:200px;
+    height:auto;
+    background-color:blue;
+    -ms-transform:translate(220px,50px); /* microsoft ie */
+    -webkit-transform:translate(220px,50px); /* chrome & safari */
+    -moz-transform:translate(220px,50px); /* mozilla */
+    -o-transform:translate(220px,50px); /* opera */
+     transform:translate(220px,50px);
+     /* it will move 220px from X-axis(horizontal),50px form Y -axis (vertical) */
+    /* transform:translateX(500px); */
+    /* transform:translateY(500px); */
+}
+.scale
+{
+   padding:90px;
+    width:200px;
+    height:60px;
+    background-color: coral;
+}
+.scale:hover
+{
+    -ms-transform:scale(3,4);
+    -webkit-transform:scale(3,4);
+    -moz-transform:scale(3,4);
+    -o-transform:scale(3,4);    
+    transform:scale(3,4);/* it will increase 3times of its width and 4 times of height */
+}
+.rotate>img,.skewx>img,.skewy>img,.skew>img
+{
+    padding:30px;
+    width:200px;
+    height:200px;
+}
+.rotate>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:200px;
+    transform:rotate(60deg);
+    -ms-transform:rotate(60deg);
+    -webkit-transform:rotate(60deg);
+    -moz-transform:rotate(60deg);
+    -o-transform:rotate(60deg);
+}
+.skewx>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:200px;
+    transform:skewX(40deg);
+    /* transform:skewX(-40deg); */
+}
+.skewy>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:200px;
+    transform:skewY(40deg);
+    /* transform:skewY(-40deg); */
+}
+.skew>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:200px;
+    transform:skew(40deg,30deg);/* 40deg will skew horizontally and 30deg will skew vertically */
+    /* transform:skew(40 deg);it will skew on X-axis */
+    /* transform:scale(.5,.4); */
+    /* it will reduce .5 times of its width and .4 of height */
+
+}

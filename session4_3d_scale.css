@@ -1,0 +1,37 @@
+.scalex>img,.scaley>img,.scalez>img,.scale3d>img
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+}
+.scalex>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    /* transform:scaleX(3);*/
+    transform:scaleX(0.5); /* it will reduce by .5 times of its size */
+}
+.scaley>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:scaleY(60deg);
+}
+.scalez>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:scaleZ(60deg);
+}
+.scale3d>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:scale(10,6,9,40deg);
+    /* 10 from x ,6 from y ,9 from z and 40 deg rotation.values of x,y,z */
+    /* values of x,y,z should be positive */
+}

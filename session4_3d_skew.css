@@ -1,0 +1,35 @@
+.skewx>img,.skewy>img,.skewz>img,.skew3d>img
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+}
+.skewx>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:skewX(60deg);
+}
+.skewy>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:skewY(60deg);
+}
+.skewz>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:skewZ(60deg);
+}
+.skew3d>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:skew3d(40deg);
+
+}

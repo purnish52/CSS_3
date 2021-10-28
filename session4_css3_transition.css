@@ -1,0 +1,63 @@
+img
+{
+    padding:50px;
+    height:250px;
+    width:300px;
+    transition:height 5s;
+}
+img:hover
+{
+    height:350px;
+
+}
+#para>p
+{
+    width:100%;
+    height:auto;
+    background-color: salmon;
+    color:red;
+    font-size:12pt;
+    transition:font-size 4s,color 4s;
+}
+
+#para>p:hover
+{
+    font-size:16pt;
+    color:blue;
+}
+
+/* transition property */
+#text
+{
+    background-color: aquamarine;
+    color:red;
+    font-size: 12pt;
+    height:auto;
+    line-height:20pt;
+    transition-property:color,font-size;
+    transition-duration:5s; /* 5s will work for both color and font-size */
+    /* 5s will work for color and 15s will take to increase font-size */
+    /*transition-duration:5s,15s; */
+}
+#text:hover
+{
+    color:green;
+    font-size:16pt;
+}
+
+/* --------------------transition delay--------------------------- */
+#delay img
+{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    transition-property: all;
+    transition-duration:5s;
+    transition-delay:2s;/* transition will be delayed by 4s after mouse is hovered over image */
+}
+#delay>img:hover
+{
+    width:400px;
+    height:400px;
+    border:2px dashed blue;
+}

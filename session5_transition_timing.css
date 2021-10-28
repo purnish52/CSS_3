@@ -1,0 +1,36 @@
+div
+{
+    width:200px;
+    height:120px;
+    background-color: salmon;
+    color:blue;
+    font-size:14pt;
+    transition:width 2s,height 4s;
+
+}
+#linear
+{
+    transition-timing-function: linear;
+}
+#linear:hover,#ease:hover,#ease-in:hover,#ease-out:hover,#ease-in-out:hover
+{
+    width:300px;
+   
+}
+#ease
+{
+    transition-timing-function:ease;
+}
+#ease-in
+{
+    transition-timing-function:ease-in;
+}
+#ease-out
+{
+    transition-timing-function:ease-out;
+}
+#ease-in-out
+{
+    transition-timing-function:ease-in-out;
+}
+

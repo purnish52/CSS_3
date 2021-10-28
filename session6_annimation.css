@@ -1,0 +1,24 @@
+div
+{
+    margin:20px;
+    width:120px;
+    height:150px;
+    background-color: blue;
+    border-radius:50%;
+    animation-name:change;
+    animation-duration:2s;
+}
+
+@keyframes change
+{
+    from
+    {
+        border-radius:50%;
+        background-color: blue;
+    }
+    to
+    {
+        border-radius:10%;
+        background-color:yellow;
+    }
+}

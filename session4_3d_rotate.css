@@ -1,0 +1,35 @@
+.rotatex>img,.rotatey>img,.rotatez>img,.rotate3d>img
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+}
+.rotatex>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:rotateX(60deg);
+}
+.rotatey>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:rotateY(60deg);
+}
+.rotatez>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:rotateZ(60deg);
+}
+.rotate3d>img:hover
+{
+    padding:30px;
+    width:200px;
+    height:250px;
+    transform:rotate3d(10,6,9,40deg);
+    /* 10 from x ,6 from y ,9 from z and 40 deg rotation.values of x,y,z */
+}

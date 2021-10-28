@@ -1,0 +1,55 @@
+#corner1
+{
+    width:500px;
+    height:auto;
+    background-color: darksalmon;
+    border-radius: 25px; /* to make rounded corners */
+}
+#corner1 p
+{
+    color:white;
+    text-align:justify;
+    font-size:20pt;
+    padding:10px;
+}
+/* using two values for border-radius */
+#corner2
+{
+    width:500px;
+    height:auto;
+    background-color: lightgreen;
+    border-radius: 25px 65px; /* 25px top-left corner & bottom-right,45px for top-right and bottom-left  */
+}
+#corner2 p
+{
+    color:blue;
+    text-align:justify;
+    font-size:20pt;
+    padding:20px;
+}
+#corner3
+{
+    width:700px;
+    height:auto;
+    background-color: red;
+    border-radius: 15px 30px 50px; /*15px top-left corner,30px for top-right and bottom-left,50 px for bottom-right */
+}
+#corner3 p,#corner4 p
+{
+    color:goldenrod;
+    text-align:justify;
+    font-size:20pt;
+    padding:20px;
+}   
+#corner4
+{
+    width:700px;
+    height:auto;
+    background-color:green;
+    border-top-left-radius:15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 50px;
+    /* border-top-radius is shorthand prop of border-top-left-radius and border-top-right-radius /*
+    /*border-bottom,-radius is shorthand prop of border-bottom-left-radius and border-bottom-right-radius */
+}
